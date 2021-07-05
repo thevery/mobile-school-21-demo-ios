@@ -3,7 +3,7 @@ on: pull_request
 
 jobs:
   build-and-test:
-    run-on: macOS-latest
+    runs-on: macOS-latest
     steps:
       - uses: actions/checkout@v2
       - run: xcodebuild
