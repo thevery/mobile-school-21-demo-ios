@@ -1,0 +1,9 @@
+name: "Build and test"
+on: pull_request
+
+jobs:
+  build-and-test:
+    run-on: macOS-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: xcodebuild
