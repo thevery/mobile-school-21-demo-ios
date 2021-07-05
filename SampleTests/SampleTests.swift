@@ -2,7 +2,7 @@
 //  SampleTests.swift
 //  SampleTests
 //
-//  Created by Ildar Karimov on 25.06.2021.
+//  Created by Ildar Karimov on 28.06.2021.
 //
 
 import XCTest
@@ -19,7 +19,6 @@ class SampleTests: XCTestCase {
     }
 
     func testExample() throws {
-        XCTAssert(2 + 2 == 4, "something wrong happened!")
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
